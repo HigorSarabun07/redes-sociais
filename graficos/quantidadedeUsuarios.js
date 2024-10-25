@@ -6,8 +6,8 @@ async function quantidadeUsuariosPorRede() {
     const quantidadeDeUsuarios = Object.values(dados)
     const data = [
         {
-            x: nomeDasRedes, 
-            y: quantidadeDeUsuarios, 
+            x: nomeDasRedes,
+            y: quantidadeDeUsuarios,
             type: 'bar'
         }
     ]
